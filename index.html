@@ -29,6 +29,9 @@
   </script>
   <!--  -->
   <style>
+     .black{
+      background-blend-mode: overlay;
+     }
      .font-lato{
       font-family: 'Lato', sans-serif;
      }
@@ -72,8 +75,136 @@
     </nav>
     <!-- Navbar section End -->
   </header>
-  <main>
-    <h1 class="text-4xl font-bold">Hello World</h1>
+
+  <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-16 py-5 my-1">
+   
+    <section>
+       <!-- banner section start-->
+      <div>
+        <div class="relative ">
+
+          <div class="carousel w-full">
+            <!-- slider - 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+             
+              <div class="hero h-[480px]" style="background-image: url(./images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md ">
+                    <h1 class="font-bold text-5xl mb-2">Exotic tastes at your<br>doorstep</h1>    
+                    <p class="mb-4">We supply highly quality organic products</p> 
+                    <button class="px-6 mb-48 text-lg rounded-lg py-3 bg-bg-pink border-0 text-white font-bold">Shop Now</button>               
+                  </div>
+                </div>
+              </div>
+    
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>       
+            </div> 
+            <!-- slider - 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+             
+              <div class="hero h-[480px]" style="background-image: url(./images/banner2.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md ">
+                    <h1 class="font-bold text-5xl mb-2">Exotic tastes at your<br>doorstep</h1>    
+                    <p class="mb-4">We supply highly quality organic products</p> 
+                    <button class="px-6 mb-48 text-lg rounded-lg py-3 bg-bg-pink border-0 text-white font-bold">Shop Now</button>               
+                  </div>
+                </div>
+              </div>
+    
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+              
+            </div> 
+            <!-- slider-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+    
+              <div class="hero h-[480px]" style="background-image: url(./images/banner3.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md ">
+                    <h1 class="font-bold text-5xl mb-2">Exotic tastes at your<br>doorstep</h1>    
+                    <p class="mb-4">We supply highly quality organic products</p> 
+                    <button class="px-6 mb-48 text-lg rounded-lg py-3 bg-bg-pink border-0 text-white font-bold">Shop Now</button>               
+                  </div>
+                </div>
+              </div>
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+             
+            </div>
+            <!-- slider-4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+    
+              <div class="hero h-[480px]" style="background-image: url(./images/banner4.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md ">
+                    <h1 class="font-bold text-5xl mb-2">Exotic tastes at your<br>doorstep</h1>    
+                    <p class="mb-4">We supply highly quality organic products</p> 
+                    <button class="px-6 mb-48 text-lg rounded-lg py-3 bg-bg-pink border-0 text-white font-bold">Shop Now</button>               
+                  </div>
+                </div>
+              </div>
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+             
+            </div>
+
+            <div class="absolute lg:visible invisible top-[390px] left-8 ">
+              <div class="flex gap-6 p-6 text-center mx-20 bg-white rounded-lg drop-shadow-lg ">
+                <!-- 1 -->
+                  <div class="w-40 flex flex-wrap justify-center items-center">
+                    <img src="./images/fruit1.png" alt="">
+                    <h4 class="font-bold">Grapes</h4>
+                  </div> 
+                <!-- 2 -->
+                  <div class="w-40 flex flex-wrap justify-center items-cent">
+                    <img src="./images/fruit2.png" alt="">
+                    <h4 class="font-bold">Mango</h4>
+                  </div> 
+                <!-- 3 -->
+                  <div class="w-40 flex flex-wrap justify-center items-cent">
+                    <img src="./images/fruit3.png" alt="">
+                    <h4 class="font-bold">Strawberry</h4>
+                  </div> 
+                <!-- 4 -->
+                  <div class="w-40 flex flex-wrap justify-center items-cent">
+                    <img src="./images/fruit4.png" alt="">
+                    <h4 class="font-bold">Strawberry</h4>
+                  </div> 
+                <!-- 5 -->
+                  <div class="w-40 flex flex-wrap justify-center items-cent">
+                    <img src="./images/fruit5.png" alt="">
+                    <h4 class="font-bold">Pomegranate</h4>
+                  </div> 
+               </div> 
+              </div>
+          </div>          
+
+        </div>
+        <!-- fruit -->        
+      </div> 
+    </section>
+    <!-- banner section end-->
+    <!--  -->
+    <section class="my-4 mt-24">
+      hello
+    </section>
+    <!--  -->
   </main>
   <footer></footer>
 
