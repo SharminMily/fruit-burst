@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Burst</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <!-- daisyUl -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- lato font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/b3385a3c31.js" crossorigin="anonymous"></script>
+  <!-- tailwind custom color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           'bg-pink': '#F85559',
+          }
+        }
+      }
+    }
+  </script>
+  <!--  -->
+  <style>
+     .font-lato{
+      font-family: 'Lato', sans-serif;
+     }
+  </style>
+</head>
+<body class="font-lato">
+
+  <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-16 py-5 my-1">
+    <!-- Navbar section start -->
+    <nav class="lg:bg-bg-pink md:bg-bg-pink rounded-3xl">
+      <div class="navbar rounded-3xl md:px-12 lg:px-12">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content lg:text-white md:text-white text-black mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home1</a></li>              
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost lg:text-white font-bold md:text-white text-black normal-case text-xl"><img class="lg:w-12 w-6" src="./images/logo.png" alt="">Fruit Burst</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal lg:text-white md:text-white text-black px-1">
+            <li><a>Home1</a></li>              
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end -mt-3.5">
+          <div class="relative flex">
+            <input type="text" placeholder="" class="input h-[38px] lg:w-52 md:w-52  w-10 mt-4 rounded-3xl" /> 
+            <div class=" absolute left-4 mt-6 md:left-44 lg:left-44"><i class="fa-solid fa-magnifying-glass"></i></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar section End -->
+  </header>
+  <main>
+    <h1 class="text-4xl font-bold">Hello World</h1>
+  </main>
+  <footer></footer>
+
+</body>
+</html>
